@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", Arial, sans-serif;
+}
+
+body{
+    background-color: #f1f1f1;
+}
+
+.logo {
+    height: 90px;
+    border-radius: 20px;
+  
+  }
+header{
+    width: 90%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.botonfinal{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color: rgba(46, 45, 45, 0.836);
+    background-color: #c8c8c8;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-weight: 1000;
+    margin-top: 20px;
+    margin-left: 600px;
+}
+
+.arriba{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 35px 20px;
+    align-items: center;
+    box-shadow: 10px 10px 20px 20px rgba(170, 170, 170, 0.2);
+}
+
+.arriba__logo{
+    text-decoration: none;
+    color:#000;
+    font-weight: 700;
+}
+
+.arriba__menu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.arriba__item{
+    list-style: none;
+}
+
+#arribaimg{
+    width: 30px;
+    height: 30px;
+    border-radius: 7px;
+}
+.logo {
+    height: 90px;
+    border-radius: 20px;
+  }
+
+.nompag{
+    text-align: center;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(197,113,252);
+    background: linear-gradient(90deg, rgba(197,113,252,1) 27%, rgba(249,65,65,1) 59%, rgba(252,176,69,1) 86%);;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+/*pie de pagina*/
+footer{
+    width: 90%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.distribucion{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 25px 30px;
+    align-items: center;
+    box-shadow: 10px 10px 20px 20px rgba(170, 170, 170, 0.2);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.distribucion .footer-left,
+.distribucion .footer-center,
+.distribucion .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+.distribucion .footer-left{
+	width: 40%;
+}
+
+/*Libro interactivo de Colombia*/
+.distribucion h3{
+	color: black;
+	margin: 0;
+    font-size: 30px;
+}
+
+/*links */
+.distribucion .footer-links{
+	color:  #000;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.distribucion .footer-links a{
+	display:inline-block;
+	line-height: 2.0;
+    font-weight:400;
+	text-decoration: none;
+}
+
+/* Footer Center */
+.distribucion .footer-center{
+	width: 35%;
+}
+
+.distribucion .footer-center i{
+	color: #070707;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.distribucion .footer-center p{
+	display: inline-block;
+	color: #000000;
+    font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.distribucion .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  padding-right: 5px;
+}
+
+/* Footer Right */
+.distribucion .footer-right{
+	width: 20%;
+}
+
+.distribucion .footer-company-about{
+	line-height: 20px;
+	color:  #000000;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.distribucion .footer-company-about span{
+	display: block;
+	color:  #000000;
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.distribucion .footer-icons{
+	margin-top: 25px;
+}
+
+.distribucion .footer-icons img{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	border-radius: 2px;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+ul{
+list-style: none;
+margin-right: 400px;
+
+}
+#menu li>a{
+background-color: rgb(2, 64, 89);
+color: rgb(255, 255, 255);
+border-radius: 50px;
+padding: 10px;
+display: block;
+text-decoration: none;
+min-width: 140px;
+
+}
+#menu li>a:hover{
+color: black;
+background-color: rgb(114, 151, 166);
+border-radius: 50px;
+}
+#menu>li{
+float: left;
+text-align:center;
+
+}
+.mapa{
+display: flex;
+align-items: center;
+border-radius: 300px;
+position: center;
+background-color: #00000000;
+margin-right: 1000px;
+box-shadow: 100px 100px 200px 200px rgba(170, 170, 170, 0.2);
+margin-top: -300px;
+height: 10px;
+width: 10px;
+text-align: center;
+}
+
+.mapa_colombia{
+width: 120%;
+height: 120%;
+position: top;
+top: -10px;
+}
+
+.mapa{
+width: 100%;
+height: 100%;
+border-radius: 20px;
+object-fit: cover;
+padding: 15px;
+}

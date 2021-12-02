@@ -1,0 +1,258 @@
+*{
+
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{ 
+    background: #e9edf2;
+  }
+  
+  .form-inicioses{
+    width: 400px;
+    background: #FFFFFF;
+    padding: 35px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color:black;
+  }
+
+  .form-inicioses h4 {
+    font-size: 30px;
+    margin: 10px 0 35px;
+    text-align: center;
+  
+    }
+  .form-inicioses P{
+    font-size: 15px;
+    margin-bottom: 35px;
+  }
+
+  .control{ 
+  width: 200%;
+  background: #FFFFFF;
+  padding: 5px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #8492A6;
+  font-family: 'Calibri';
+ box-sizing: border-box;
+ margin-left: 10%;
+}
+  
+  .form-inicioses{ 
+    height: 480px;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .form-inicioses a:hover { 
+  color: black;
+  text-decoration: underline;
+ 
+  }
+  
+  #enviando {
+    width: 100%;
+    background: #969FAA;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    position: relative;
+    left: 60%;
+    margin: 10px 0 50px;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", Arial, sans-serif;
+}
+
+
+
+header{
+    width: 90%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+.arriba{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 35px 20px;
+    align-items: center;
+    box-shadow: 10px 10px 20px 20px rgba(170, 170, 170, 0.2);
+    height: 100px;
+    
+}
+
+.logo {
+  height: 90px;
+  border-radius: 20px;
+
+}
+.arriba__logo{
+    text-decoration: none;
+    color:#000;
+    font-weight: 700;
+    font-size:30px;
+  
+}
+
+.arriba__menu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.arriba__item{
+    list-style: none;
+}
+
+#arribaimg{
+    width: 30px;
+    height: 30px;
+    border-radius: 7px;
+}
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+footer{
+    width: 90%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.distribucion{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 25px 30px;
+    align-items: center;
+    box-shadow: 10px 10px 20px 20px rgba(170, 170, 170, 0.2);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.distribucion .footer-left,
+.distribucion .footer-center,
+.distribucion .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+.distribucion .footer-left{
+	width: 40%;
+}
+
+/*Libro interactivo de Colombia*/
+.distribucion h3{
+	color: black;
+	margin: 0;
+    font-size: 30px;
+}
+
+/*links */
+.distribucion .footer-links{
+	color:  #000;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.distribucion .footer-links a{
+	display:inline-block;
+	line-height: 2.0;
+    font-weight:400;
+	text-decoration: none;
+}
+
+/* Footer Center */
+.distribucion .footer-center{
+	width: 35%;
+}
+
+.distribucion .footer-center i{
+	color: #070707;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.distribucion .footer-center p{
+	display: inline-block;
+	color: #000000;
+    font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.distribucion .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  padding-right: 5px;
+}
+
+/* Footer Right */
+.distribucion .footer-right{
+	width: 20%;
+}
+
+.distribucion .footer-company-about{
+	line-height: 20px;
+	color:  #000000;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.distribucion .footer-company-about span{
+	display: block;
+	color:  #000000;
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.distribucion .footer-icons{
+	margin-top: 25px;
+}
+
+.distribucion .footer-icons img{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	border-radius: 2px;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 3px;
+	margin-bottom: 5px;
+}

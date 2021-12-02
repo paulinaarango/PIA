@@ -1,0 +1,101 @@
+<!--formulario inicio sesión-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="CSS\iniciosesion.css">
+    <title>Inicio</title> 
+  </head>
+
+
+  <body>
+   <section>
+   <header> <!--MENÚ DEL PROYECTO-->
+    <nav class="arriba">
+
+        <img  class="logo" id="logoimg" src="IMG\Logo.png" alt="Logotipo">
+
+        <a class="arriba__logo" href="#">Libro interactivo de Colombia</a>
+
+        <ul class="arriba__menu">
+            <img class= "arriba_item" id="arribaimg" src="IMG\Inicio.png" alt="Img inicio">
+            <li class="arriba__item"><a href="PAGINAINICIO.html">Volver a inicio</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+   <form class="form-inicioses" action="archivoValidacion.php" method="get" name="datos_usuario" id="datos_usuario">
+   <h4>Iniciar sesión</h4>
+   <P>Si ya eres usuario solo tienes que ingresar el correo o nickname y la contraseña que registraste al inicio</p>
+        <table aling="center">
+            <tr>
+                <td><!--Correo:--></td>
+                <td><label for="correo"></label>
+                <input class="control" type="email" name="correo electronico" id="correo electronico" placeholder="Correo electronico o nickname">
+            </tr>
+            <tr>
+                <td><!--Contraseña:--></td>
+                <td><label for="contraseña"></label>
+                <input class="control" type="password" name="contraseña" id="contraseña" placeholder="Contraseña">
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center"><input type="button" onclick=" location.href='REGIONES.html'" name="enviando" id="enviando" value="Iniciar"></td>
+            </tr>
+            
+        </table>
+        <P> ¿Aún no tienes cuenta? <a href="REGISTRO.html"> Crea una cuenta </a></P>
+    </form> 
+   </section>
+
+   <footer class="distribucion">
+    <div class="footer-left">
+		<h3>Libro interactivo de Colombia</span></h3>
+        <p class="footer-links">
+            <a href="" class="link-1">Inicio</a>
+			<a href="">Blog</a>
+			<a href="DIPLOMAS.html">Certificados</a>
+			<a href="">Sobre nosotras</a>
+			<a href="">Contacto</a>
+		</p>
+
+		<p class="proyecto_nombre">Libro interactivo de Colombia © 2021</p>
+	</div>
+
+	<div class="footer-center">
+		<div>
+			<i class="marker"></i>
+			<p><span>Cra 20 a N-53 91</span> Medellin, Colombia</p>
+		</div>
+
+		<div>
+			<i class="phone"></i>
+			<p>+1.555.555.5555</p>
+		</div>
+
+		<div>
+			<i class="envelope"></i>
+			<p><a href="mailto:Paulinagomezarango@gmail.com">librointeractivodecolombia@gmail.com</a></p>
+		</div>
+    </div>
+
+	<div class="footer-right">
+		<p class="footer-company-about"> <span>Sobre el proyecto</span>
+				Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+		</p>
+
+		<div class="footer-icons">
+            <img src="IMG\rs1.png" alt="facebook"><a href="https://web.facebook.com/"><i class="fa fa-facebook"></i></a>
+			<img src="IMG\rs2.png" alt="twitter"><a href="https://mobile.twitter.com/login"><i class="fa fa-twitter"></i></a>
+			<img src="IMG\rs3.png" alt="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a>
+			<img src="IMG\rs4.png" alt="github"><a href="https://github.com/"><i class="fa fa-github"></i></a>
+        </div>
+
+	</div>
+
+</footer>
+  </body>
+</html>

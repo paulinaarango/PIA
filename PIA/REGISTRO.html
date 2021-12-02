@@ -1,0 +1,116 @@
+<!--formulario registro-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="CSS\registro.css">
+    <title>registro</title> 
+  </head>
+
+
+  <body>
+<header> <!--MENÚ DEL PROYECTO-->
+    <nav class="arriba">
+
+        <img  class="logo" id="logoimg" src="IMG\Logo.png" alt="Logotipo">
+
+        <a class="arriba__logo" href="INICIOSESION.html">Libro interactivo de Colombia</a>
+
+        <ul class="arriba__menu"> <a href="INICIOSESION.html"></a>
+            <a href="INICIOSESION.html"></a><img class= "arriba_item" id="arribaimg" src="IMG\Inicio.png" alt="Img inicio">
+            <li class="arriba__item"><a href="PAGINAINICIO.html">Volver al inicio</a></li>
+        </ul>
+    </nav>
+</header>
+   <form class="form-registro" action="archivoValidacion.php" method="post" name="datos_usuario" id="datos_usuario">
+   <h4>Crea una cuenta</h4>
+        <table aling="center">
+            <tr>
+                <td><!--Nombre:--></td>
+                <td><label for="nombre"></label>
+                <input class="control" type="text" name="nombre" id="nombre" placeholder="Nombre">
+            </tr>
+            <tr>
+                <td><!--Apellido:--></td>
+                <td><label for="apellido"></label>
+                <input class="control" type="text" name="apellido" id="apellido" placeholder="Apellido">
+            </tr>
+            <tr>
+                <td><!--Correo:--></td>
+                <td><label for="correo"></label>
+                <input class="control" type="email" name="correo electronico" id="correo electronico" placeholder="Correo electronico">
+            </tr>
+            <tr>
+                <td><!--Nickname:--></td>
+                <td><label for="nickname"></label>
+                <input class="control" type="text" name="nickname" id="nickname" placeholder="Nickname">
+            </tr>
+            <tr>
+                <td><!--Contraseña:--></td>
+                <td><label for="contraseña"></label>
+                <input class="control" type="password" name="contrasena" id="contrasena" placeholder="Contraseña">
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center"><input type="button" onclick=" location.href='REGIONES.html'" name="enviando" id="enviando" value="Registrarse"></td> 
+            </tr>
+            
+        </table>
+        <P> ¿Ya tienes una cuenta? <a href="INICIOSESION.html"> Inicia sesión </a></P>
+    </form> 
+    
+    <?php 
+    include ("registro.php");
+    ?>
+
+<footer class="distribucion">
+    <div class="footer-left">
+		<h3>Libro interactivo de Colombia</span></h3>
+        <p class="footer-links">
+            <a href="" class="link-1">Inicio</a>
+			<a href="">Blog</a>
+			<a href="DIPLOMAS.html">Certificados</a>
+			<a href="">Sobre nosotras</a>
+			<a href="">Contacto</a>
+		</p>
+
+		<p class="proyecto_nombre">Libro interactivo de Colombia © 2021</p>
+	</div>
+
+	<div class="footer-center">
+		<div>
+			<i class="marker"></i>
+			<p><span>Cra 20 a N-53 91</span> Medellin, Colombia</p>
+		</div>
+
+		<div>
+			<i class="phone"></i>
+			<p>+1.555.555.5555</p>
+		</div>
+
+		<div>
+			<i class="envelope"></i>
+			<p><a href="mailto:Paulinagomezarango@gmail.com">librointeractivodecolombia@gmail.com</a></p>
+		</div>
+    </div>
+
+	<div class="footer-right">
+		<p class="footer-company-about"> <span>Sobre el proyecto</span>
+				Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+		</p>
+
+		<div class="footer-icons">
+            <img src="IMG\rs1.png" alt="facebook"><a href="https://web.facebook.com/"><i class="fa fa-facebook"></i></a>
+			<img src="IMG\rs2.png" alt="twitter"><a href="https://mobile.twitter.com/login"><i class="fa fa-twitter"></i></a>
+			<img src="IMG\rs3.png" alt="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a>
+			<img src="IMG\rs4.png" alt="github"><a href="https://github.com/"><i class="fa fa-github"></i></a>
+        </div>
+
+	</div>
+
+</footer>
+
+</body>
+</html>
